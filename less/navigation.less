@@ -1,1 +1,41 @@
-// Navigation Styles here
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px dashed @navigation-border;
+    padding:20px;
+
+    .rightside {
+        margin: 0;
+        padding:0;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        list-style:none;
+        flex-direction: row;
+
+        a {
+            text-decoration: none;
+            padding:20px;
+            margin-right:10px;
+            font-size:1.6em;
+            color:black;
+        }
+    }
+    
+    .leftside {
+        flex-grow: 1;
+               
+        a {
+            text-decoration: none;
+            padding-top: 20px;
+            padding-bottom:20px;
+            font-family: 'Indie Flower', cursive;
+            font-size:4em;
+            color:black;
+        }
+    }
+
+
+}
